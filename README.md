@@ -15,7 +15,6 @@ Ibarra Task Tracker API is a basic Express and MongoDB backend for user accounts
 - User login with JWT token creation
 - JWT authentication middleware
 - Protected task routes for creating, reading, updating, and deleting tasks
-- Local smoke test for API routes
 
 ## Technologies Used
 
@@ -34,9 +33,9 @@ Ibarra Task Tracker API is a basic Express and MongoDB backend for user accounts
 
 2. Install dependencies:
 
-```bash
+
 npm install
-```
+
 
 3. Create or confirm the `.env` file has these values:
 
@@ -50,7 +49,7 @@ JWT_SECRET=
 
 In Git Bash, you can test the connection with:
 
-```bash
+```
 mongosh "mongodb://localhost:27017/myapp"
 ```
 
